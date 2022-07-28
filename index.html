@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Bookgram</title>
+        <link href= prueba.css rel=stylesheet>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=Montserrat:wght@500&display=swap');
+            </style>
+    <body>
+<!-- Nav/ Menú / Logo-->
+
+<nav id="menu" class="menu">
+    
+
+    <ul class= menulist>
+        
+        <li> <a href=#home> Home </a></li>
+        <li> <a href= #books> Books</a></li>
+        <li> <a href= #news> News </a></li>
+        <li> <a href= #account> Account </a></li>
+    </ul>
+</nav>
+
+<!-- Sección Home y cuadro de Log In-->
+
+<section id="home" class="home">
+
+    <div  class="welcome" >
+      
+
+        <h1 > Welcome to Bookgram, stranger. </h1>
+        <p>Here is where the dream of all readers come true. <br>Read, share and review. 
+        <br>Get to know another readers.</p>
+        <button> <a href= #start>Get started</a> </button>
+    
+    
+    </div>
+
+      
+<!-- Sign up & Log in box-->
+
+<div class="container" id="start">
+    <div class="box" >
+        <h1> Sign up</h1>
+        <div class="user">
+            <i class="fas fa-user"></i>
+            <input 
+            type= "text"
+            name = "username"
+            placeholder="Full name"
+            >
+            <i class="fas fa-envelope"></i>
+            <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            >
+            <i class="fas fa-unlock-alt"></i>
+            <input
+            type="password"
+            name= "password"
+            placeholder="Enter a password"
+            >
+            <i class="fas fa-unlock-alt"></i>
+            <input
+            type="password"
+            name="password"
+            placeholder="Confirm your password"
+            >
+
+            <div class= "submit">
+                <button class="btn">Submit</button>
+                <p> Already have an account? <a href="#"> Log in</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="books" class="books">
+    <div id="contbooks">
+    <h2> The 3 books of the week</h2> <!-- Ver como armar una grid con los libros de la semana-->
+    <div class="book">
+        <h4> Harry Potter</h4>
+        <img alt="Harry potter and the philosopher stone" src="https://images-na.ssl-images-amazon.com/images/I/5160dwNeqSL._SX323_BO1,204,203,200_.jpg">
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur mollitia, sint et ullam expedita magnam quia accusamus pariatur rem labore consequuntur magni. Necessitatibus, corrupti atque. Laboriosam voluptate animi accusamus.</p>
+        <u> Rate this book: </u> 
+        <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+          </form>        
+    </div>
+    <div class="book">
+        <h4> Sherlock Holmes</h4>
+        <img alt="Sherlock Holmes" src="https://images-na.ssl-images-amazon.com/images/I/51j6h5jd+aL._SX291_BO1,204,203,200_.jpg">
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur mollitia, sint et ullam expedita magnam quia accusamus pariatur rem labore consequuntur magni. Necessitatibus, corrupti atque. Laboriosam voluptate animi accusamus.</p>        
+        <u> Rate this book: </u>  <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+          </form>
+    </div>
+    <div class="book">
+        <h4> Atomic Habits </h4>
+        <img alt="Atomic Habits" src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/8479/9781847941831.jpg">
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur mollitia, sint et ullam expedita magnam quia accusamus pariatur rem labore consequuntur magni. Necessitatibus, corrupti atque. Laboriosam voluptate animi accusamus.</p>      
+        <u> Rate this book: </u> <form>
+            <p class="clasificacion">
+              <input id="radio1" type="radio" name="estrellas" value="5"><!--
+              --><label for="radio1">★</label><!--
+              --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+              --><label for="radio2">★</label><!--
+              --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+              --><label for="radio3">★</label><!--
+              --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+              --><label for="radio4">★</label><!--
+              --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+              --><label for="radio5">★</label>
+            </p>
+          </form>
+    </div>
+
+</div>
+</section>
+<section class="news" id="news">
+    <h2> Top books news</h2>
+<div class="gallery">
+    <div class="new">
+        <h5> Virginia Woolf died yesterday</h5>
+        <span> Click <a href="#"">here</a> to continue reading...</span>
+    </div>
+    <div class="new">
+        <h5> A new edition of The Hunger Games</h5>
+        <span> Click <a href="#">here</a> to continue reading...</span>
+    </div>
+</div>
+</section>
+
+<footer>
+    <p> Constanza Guimaraez - Bookgram</p>
+</footer>
+
+    </body>
+
+</html>
