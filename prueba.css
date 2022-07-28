@@ -1,11 +1,7 @@
 /* Variables y colores propios*/
 
-/*BUGS:
-- La barra del nav se pone atrás de la imagen de la zona books
-- Pierde funcionalidad en toda la zona del DIV contbooks
-- Cuando le doy puntaje a cualquier libro se puntea el primero
 
-*/
+
 :root {
     --main-white: #fafafa;
     --light-blue: #60808b;
